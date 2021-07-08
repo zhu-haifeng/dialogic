@@ -1,0 +1,167 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Wed Dec  2 11:31:09 2020
+# Process ID: 11816
+# Current directory: D:/190110716/project_6SIM
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5832 D:\190110716\project_6SIM\project_6SIM.xpr
+# Log file: D:/190110716/project_6SIM/vivado.log
+# Journal file: D:/190110716/project_6SIM\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/190110716/project_6SIM/project_6SIM.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source topDesign_sim.tcl
+relaunch_sim
+relaunch_sim
+run all
+relaunch_sim
+run all
+relaunch_sim
+run all
+relaunch_sim
+run all
+relaunch_sim
+run 2500 ns
+run 2500 ns
+relaunch_sim
+run 1500 ns
+run all
+relaunch_sim
+run all
+relaunch_sim
+run all
+relaunch_sim
+run all
+relaunch_sim
+run all
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+relaunch_sim
+run all
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+relaunch_sim
+run 1500 ns
+run 1500 ns
+relaunch_sim
+run 1500 ns
+run 1500 ns
+relaunch_sim
+relaunch_sim
+run all
+close_sim

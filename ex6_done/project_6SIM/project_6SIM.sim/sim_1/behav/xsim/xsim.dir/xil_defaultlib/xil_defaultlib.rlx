@@ -1,0 +1,15 @@
+0.6
+2019.2
+Nov  6 2019
+21:57:16
+C:/Users/carl/fpga/ex6_done/project_6SIM/project_6SIM.sim/sim_1/behav/xsim/glbl.v,1573089660,verilog,,,,glbl,,,,,,,,
+C:/Users/carl/fpga/ex6_done/project_6SIM/project_6SIM.srcs/sim_1/new/topDesign_sim.v,1607101657,verilog,,,,topDesign_sim,,,,,,,,
+C:/Users/carl/fpga/ex6_done/project_6SIM/project_6SIM.srcs/sources_1/new/divider.v,1606879914,verilog,,C:/Users/carl/fpga/ex6_done/project_6SIM/project_6SIM.srcs/sources_1/new/divider1Hz.v,,divider,,,,,,,,
+C:/Users/carl/fpga/ex6_done/project_6SIM/project_6SIM.srcs/sources_1/new/divider1Hz.v,1606879933,verilog,,C:/Users/carl/fpga/ex6_done/project_6SIM/project_6SIM.srcs/sources_1/new/divider4Hz.v,,divider1Hz,,,,,,,,
+C:/Users/carl/fpga/ex6_done/project_6SIM/project_6SIM.srcs/sources_1/new/divider4Hz.v,1606880580,verilog,,C:/Users/carl/fpga/ex6_done/project_6SIM/project_6SIM.srcs/sources_1/new/hexseg8.v,,divider4Hz,,,,,,,,
+C:/Users/carl/fpga/ex6_done/project_6SIM/project_6SIM.srcs/sources_1/new/hexseg8.v,1606654919,verilog,,C:/Users/carl/fpga/ex6_done/project_6SIM/project_6SIM.srcs/sources_1/new/randNum.v,,hexseg8,,,,,,,,
+C:/Users/carl/fpga/ex6_done/project_6SIM/project_6SIM.srcs/sources_1/new/randNum.v,1606724077,verilog,,C:/Users/carl/fpga/ex6_done/project_6SIM/project_6SIM.srcs/sources_1/new/shinningO.v,,randNum,,,,,,,,
+C:/Users/carl/fpga/ex6_done/project_6SIM/project_6SIM.srcs/sources_1/new/shinningO.v,1606738885,verilog,,C:/Users/carl/fpga/ex6_done/project_6SIM/project_6SIM.srcs/sources_1/new/singledisplay.v,,shinningO,,,,,,,,
+C:/Users/carl/fpga/ex6_done/project_6SIM/project_6SIM.srcs/sources_1/new/singledisplay.v,1606742795,verilog,,C:/Users/carl/fpga/ex6_done/project_6SIM/project_6SIM.srcs/sources_1/new/state0_init.v,,singleDisplay,,,,,,,,
+C:/Users/carl/fpga/ex6_done/project_6SIM/project_6SIM.srcs/sources_1/new/state0_init.v,1606879355,verilog,,C:/Users/carl/fpga/ex6_done/project_6SIM/project_6SIM.srcs/sources_1/new/topDesign.v,,state0_init,,,,,,,,
+C:/Users/carl/fpga/ex6_done/project_6SIM/project_6SIM.srcs/sources_1/new/topDesign.v,1606881610,verilog,,C:/Users/carl/fpga/ex6_done/project_6SIM/project_6SIM.srcs/sim_1/new/topDesign_sim.v,,topDesign,,,,,,,,

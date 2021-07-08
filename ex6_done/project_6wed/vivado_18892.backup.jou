@@ -1,0 +1,49 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Fri Dec  4 15:48:39 2020
+# Process ID: 18892
+# Current directory: C:/Users/carl/fpga/ex6_done/project_6wed
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8412 C:\Users\carl\fpga\ex6_done\project_6wed\project_6wed.xpr
+# Log file: C:/Users/carl/fpga/ex6_done/project_6wed/vivado.log
+# Journal file: C:/Users/carl/fpga/ex6_done/project_6wed\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/carl/fpga/ex6_done/project_6wed/project_6wed.xpr
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/carl/fpga/ex6_done/project_6wed/project_6wed.srcs/sim_1/new/singleDisplay_sim.v w ]
+add_files -fileset sim_1 C:/Users/carl/fpga/ex6_done/project_6wed/project_6wed.srcs/sim_1/new/singleDisplay_sim.v
+close [ open C:/Users/carl/fpga/ex6_done/project_6wed/project_6wed.srcs/sim_1/new/hexseg8.v w ]
+add_files -fileset sim_1 C:/Users/carl/fpga/ex6_done/project_6wed/project_6wed.srcs/sim_1/new/hexseg8.v
+update_compile_order -fileset sim_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top singleDisplay_sim [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+source singleDisplay_sim.tcl
+close_sim
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/carl/fpga/ex6_done/project_6wed/project_6wed.srcs/sim_1/new/hexseg8_sim.v w ]
+add_files -fileset sim_1 C:/Users/carl/fpga/ex6_done/project_6wed/project_6wed.srcs/sim_1/new/hexseg8_sim.v
+update_compile_order -fileset sim_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top hexseg8_sim [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+launch_simulation
+launch_simulation
+source hexseg8_sim.tcl
+relaunch_sim
+relaunch_sim
+relaunch_sim
+close_sim

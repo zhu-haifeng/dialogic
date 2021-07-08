@@ -1,0 +1,509 @@
+
+*** Running vivado
+    with args -log topDesign.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source topDesign.tcl
+
+
+****** Vivado v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source topDesign.tcl -notrace
+Command: synth_design -top topDesign -part xc7a35tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 11212 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 363.629 ; gain = 100.953
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'topDesign' [D:/190110716/project_6wed/project_6wed.srcs/sources_1/new/topDesign.v:22]
+	Parameter state0 bound to: 3'b000 
+	Parameter state1 bound to: 3'b001 
+	Parameter state2 bound to: 3'b010 
+	Parameter state3 bound to: 3'b011 
+INFO: [Synth 8-6157] synthesizing module 'randNum' [D:/190110716/project_6wed/project_6wed.srcs/sources_1/new/randNum.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'randNum' (1#1) [D:/190110716/project_6wed/project_6wed.srcs/sources_1/new/randNum.v:23]
+INFO: [Synth 8-6157] synthesizing module 'hexseg8' [D:/190110716/project_6wed/project_6wed.srcs/sources_1/new/hexseg8.v:23]
+INFO: [Synth 8-6157] synthesizing module 'divider' [D:/190110716/project_6wed/project_6wed.srcs/sources_1/new/divider.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'divider' (2#1) [D:/190110716/project_6wed/project_6wed.srcs/sources_1/new/divider.v:23]
+INFO: [Synth 8-6157] synthesizing module 'singleDisplay' [D:/190110716/project_6wed/project_6wed.srcs/sources_1/new/singledisplay.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'singleDisplay' (3#1) [D:/190110716/project_6wed/project_6wed.srcs/sources_1/new/singledisplay.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'hexseg8' (4#1) [D:/190110716/project_6wed/project_6wed.srcs/sources_1/new/hexseg8.v:23]
+INFO: [Synth 8-6157] synthesizing module 'state0_init' [D:/190110716/project_6wed/project_6wed.srcs/sources_1/new/state0_init.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'state0_init' (5#1) [D:/190110716/project_6wed/project_6wed.srcs/sources_1/new/state0_init.v:23]
+INFO: [Synth 8-6157] synthesizing module 'shinningO' [D:/190110716/project_6wed/project_6wed.srcs/sources_1/new/shinningO.v:23]
+INFO: [Synth 8-6157] synthesizing module 'divider4Hz' [D:/190110716/project_6wed/project_6wed.srcs/sources_1/new/divider4Hz.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'divider4Hz' (6#1) [D:/190110716/project_6wed/project_6wed.srcs/sources_1/new/divider4Hz.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'shinningO' (7#1) [D:/190110716/project_6wed/project_6wed.srcs/sources_1/new/shinningO.v:23]
+INFO: [Synth 8-6157] synthesizing module 'divider1Hz' [D:/190110716/project_6wed/project_6wed.srcs/sources_1/new/divider1Hz.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'divider1Hz' (8#1) [D:/190110716/project_6wed/project_6wed.srcs/sources_1/new/divider1Hz.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/190110716/project_6wed/project_6wed.srcs/sources_1/new/topDesign.v:217]
+WARNING: [Synth 8-567] referenced signal 'cs' should be on the sensitivity list [D:/190110716/project_6wed/project_6wed.srcs/sources_1/new/topDesign.v:165]
+WARNING: [Synth 8-567] referenced signal 'data1_0' should be on the sensitivity list [D:/190110716/project_6wed/project_6wed.srcs/sources_1/new/topDesign.v:165]
+WARNING: [Synth 8-567] referenced signal 'data2_0' should be on the sensitivity list [D:/190110716/project_6wed/project_6wed.srcs/sources_1/new/topDesign.v:165]
+WARNING: [Synth 8-567] referenced signal 'data3_0' should be on the sensitivity list [D:/190110716/project_6wed/project_6wed.srcs/sources_1/new/topDesign.v:165]
+WARNING: [Synth 8-567] referenced signal 'data4_0' should be on the sensitivity list [D:/190110716/project_6wed/project_6wed.srcs/sources_1/new/topDesign.v:165]
+WARNING: [Synth 8-567] referenced signal 'data5_0' should be on the sensitivity list [D:/190110716/project_6wed/project_6wed.srcs/sources_1/new/topDesign.v:165]
+WARNING: [Synth 8-567] referenced signal 'data6_0' should be on the sensitivity list [D:/190110716/project_6wed/project_6wed.srcs/sources_1/new/topDesign.v:165]
+WARNING: [Synth 8-567] referenced signal 'data7_0' should be on the sensitivity list [D:/190110716/project_6wed/project_6wed.srcs/sources_1/new/topDesign.v:165]
+WARNING: [Synth 8-567] referenced signal 'data8_0' should be on the sensitivity list [D:/190110716/project_6wed/project_6wed.srcs/sources_1/new/topDesign.v:165]
+WARNING: [Synth 8-567] referenced signal 'data1_1' should be on the sensitivity list [D:/190110716/project_6wed/project_6wed.srcs/sources_1/new/topDesign.v:165]
+WARNING: [Synth 8-567] referenced signal 'data2_1' should be on the sensitivity list [D:/190110716/project_6wed/project_6wed.srcs/sources_1/new/topDesign.v:165]
+WARNING: [Synth 8-567] referenced signal 'data3_1' should be on the sensitivity list [D:/190110716/project_6wed/project_6wed.srcs/sources_1/new/topDesign.v:165]
+WARNING: [Synth 8-567] referenced signal 'data4_1' should be on the sensitivity list [D:/190110716/project_6wed/project_6wed.srcs/sources_1/new/topDesign.v:165]
+WARNING: [Synth 8-567] referenced signal 'data5_1' should be on the sensitivity list [D:/190110716/project_6wed/project_6wed.srcs/sources_1/new/topDesign.v:165]
+WARNING: [Synth 8-567] referenced signal 'data6_1' should be on the sensitivity list [D:/190110716/project_6wed/project_6wed.srcs/sources_1/new/topDesign.v:165]
+WARNING: [Synth 8-567] referenced signal 'data7_1' should be on the sensitivity list [D:/190110716/project_6wed/project_6wed.srcs/sources_1/new/topDesign.v:165]
+WARNING: [Synth 8-567] referenced signal 'data8_1' should be on the sensitivity list [D:/190110716/project_6wed/project_6wed.srcs/sources_1/new/topDesign.v:165]
+WARNING: [Synth 8-567] referenced signal 'sw_i' should be on the sensitivity list [D:/190110716/project_6wed/project_6wed.srcs/sources_1/new/topDesign.v:165]
+WARNING: [Synth 8-567] referenced signal 'addrSel' should be on the sensitivity list [D:/190110716/project_6wed/project_6wed.srcs/sources_1/new/topDesign.v:165]
+WARNING: [Synth 8-567] referenced signal 'data1_3' should be on the sensitivity list [D:/190110716/project_6wed/project_6wed.srcs/sources_1/new/topDesign.v:165]
+WARNING: [Synth 8-567] referenced signal 'data2_3' should be on the sensitivity list [D:/190110716/project_6wed/project_6wed.srcs/sources_1/new/topDesign.v:165]
+WARNING: [Synth 8-567] referenced signal 'data3_3' should be on the sensitivity list [D:/190110716/project_6wed/project_6wed.srcs/sources_1/new/topDesign.v:165]
+WARNING: [Synth 8-567] referenced signal 'data4_3' should be on the sensitivity list [D:/190110716/project_6wed/project_6wed.srcs/sources_1/new/topDesign.v:165]
+WARNING: [Synth 8-567] referenced signal 'data5_3' should be on the sensitivity list [D:/190110716/project_6wed/project_6wed.srcs/sources_1/new/topDesign.v:165]
+WARNING: [Synth 8-567] referenced signal 'shiningO' should be on the sensitivity list [D:/190110716/project_6wed/project_6wed.srcs/sources_1/new/topDesign.v:165]
+WARNING: [Synth 8-567] referenced signal 'randString1' should be on the sensitivity list [D:/190110716/project_6wed/project_6wed.srcs/sources_1/new/topDesign.v:165]
+WARNING: [Synth 8-567] referenced signal 'randString2' should be on the sensitivity list [D:/190110716/project_6wed/project_6wed.srcs/sources_1/new/topDesign.v:165]
+WARNING: [Synth 8-567] referenced signal 'randString3' should be on the sensitivity list [D:/190110716/project_6wed/project_6wed.srcs/sources_1/new/topDesign.v:165]
+WARNING: [Synth 8-567] referenced signal 'randString4' should be on the sensitivity list [D:/190110716/project_6wed/project_6wed.srcs/sources_1/new/topDesign.v:165]
+WARNING: [Synth 8-567] referenced signal 'randString5' should be on the sensitivity list [D:/190110716/project_6wed/project_6wed.srcs/sources_1/new/topDesign.v:165]
+WARNING: [Synth 8-3936] Found unconnected internal register 'en_reg' and it is trimmed from '3' to '1' bits. [D:/190110716/project_6wed/project_6wed.srcs/sources_1/new/topDesign.v:93]
+INFO: [Synth 8-6155] done synthesizing module 'topDesign' (9#1) [D:/190110716/project_6wed/project_6wed.srcs/sources_1/new/topDesign.v:22]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 419.379 ; gain = 156.703
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 419.379 ; gain = 156.703
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 419.379 ; gain = 156.703
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/190110716/project_6wed/project_6wed.srcs/constrs_1/new/topDesign.xdc]
+Finished Parsing XDC File [D:/190110716/project_6wed/project_6wed.srcs/constrs_1/new/topDesign.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/190110716/project_6wed/project_6wed.srcs/constrs_1/new/topDesign.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/topDesign_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/topDesign_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 750.328 ; gain = 0.000
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 750.328 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 750.328 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 750.328 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 750.328 ; gain = 487.652
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 750.328 ; gain = 487.652
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 750.328 ; gain = 487.652
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'shiningO_reg' in module 'shinningO'
+INFO: [Synth 8-5544] ROM "shiningO" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-4471] merging register 'data7_1_reg[3:0]' into 'data6_1_reg[3:0]' [D:/190110716/project_6wed/project_6wed.srcs/sources_1/new/topDesign.v:361]
+INFO: [Synth 8-5545] ROM "temp1_reg[4]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "temp1_reg[3]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "temp1_reg[2]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "temp1_reg[1]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "temp1_reg[0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5544] ROM "randString1" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "data1_3" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "data1_1" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "data8_1" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "cnt" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  iSTATE |                               01 |                             0000
+*
+                 iSTATE0 |                               10 |                             1110
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'shiningO_reg' using encoding 'one-hot' in module 'shinningO'
+WARNING: [Synth 8-327] inferring latch for variable 'data1_reg' [D:/190110716/project_6wed/project_6wed.srcs/sources_1/new/topDesign.v:80]
+WARNING: [Synth 8-327] inferring latch for variable 'data2_reg' [D:/190110716/project_6wed/project_6wed.srcs/sources_1/new/topDesign.v:81]
+WARNING: [Synth 8-327] inferring latch for variable 'data3_reg' [D:/190110716/project_6wed/project_6wed.srcs/sources_1/new/topDesign.v:82]
+WARNING: [Synth 8-327] inferring latch for variable 'data4_reg' [D:/190110716/project_6wed/project_6wed.srcs/sources_1/new/topDesign.v:83]
+WARNING: [Synth 8-327] inferring latch for variable 'data5_reg' [D:/190110716/project_6wed/project_6wed.srcs/sources_1/new/topDesign.v:84]
+WARNING: [Synth 8-327] inferring latch for variable 'data6_reg' [D:/190110716/project_6wed/project_6wed.srcs/sources_1/new/topDesign.v:85]
+WARNING: [Synth 8-327] inferring latch for variable 'data7_reg' [D:/190110716/project_6wed/project_6wed.srcs/sources_1/new/topDesign.v:86]
+WARNING: [Synth 8-327] inferring latch for variable 'data8_reg' [D:/190110716/project_6wed/project_6wed.srcs/sources_1/new/topDesign.v:87]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 750.328 ; gain = 487.652
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      6 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 1     
+	   2 Input      2 Bit       Adders := 1     
++---XORs : 
+	   2 Input      1 Bit         XORs := 3     
++---Registers : 
+	                8 Bit    Registers := 2     
+	                7 Bit    Registers := 2     
+	                5 Bit    Registers := 1     
+	                4 Bit    Registers := 63    
+	                3 Bit    Registers := 2     
+	                2 Bit    Registers := 3     
+	                1 Bit    Registers := 4     
++---Muxes : 
+	   4 Input      7 Bit        Muxes := 2     
+	   2 Input      4 Bit        Muxes := 13    
+	   4 Input      4 Bit        Muxes := 13    
+	   2 Input      2 Bit        Muxes := 2     
+	   4 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 14    
+	   4 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module topDesign 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      6 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	                5 Bit    Registers := 1     
+	                4 Bit    Registers := 62    
+	                3 Bit    Registers := 2     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 12    
+	   4 Input      4 Bit        Muxes := 13    
+	   4 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 14    
+	   4 Input      1 Bit        Muxes := 1     
+Module randNum 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 3     
++---Registers : 
+	                8 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+Module divider 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module hexseg8 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	                8 Bit    Registers := 1     
+	                7 Bit    Registers := 2     
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   4 Input      7 Bit        Muxes := 2     
+	   2 Input      2 Bit        Muxes := 1     
+Module state0_init 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 1     
+Module divider4Hz 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module shinningO 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      2 Bit        Muxes := 1     
+Module divider1Hz 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-5545] ROM "temp1_reg[0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "temp1_reg[1]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "temp1_reg[2]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "temp1_reg[3]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "temp1_reg[4]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\data6_1_reg[0] )
+INFO: [Synth 8-3886] merging instance 'data6_1_reg[1]' (FDSE) to 'data6_1_reg[2]'
+INFO: [Synth 8-3886] merging instance 'data6_1_reg[2]' (FDSE) to 'data6_1_reg[3]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\data6_1_reg[3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\data8_1_reg[3] )
+WARNING: [Synth 8-3332] Sequential element (U_shinningO_1/FSM_onehot_shiningO_reg[0]) is unused and will be removed from module topDesign.
+WARNING: [Synth 8-3332] Sequential element (data1_reg[3]) is unused and will be removed from module topDesign.
+WARNING: [Synth 8-3332] Sequential element (data1_reg[2]) is unused and will be removed from module topDesign.
+WARNING: [Synth 8-3332] Sequential element (data1_reg[1]) is unused and will be removed from module topDesign.
+WARNING: [Synth 8-3332] Sequential element (data1_reg[0]) is unused and will be removed from module topDesign.
+WARNING: [Synth 8-3332] Sequential element (data2_reg[3]) is unused and will be removed from module topDesign.
+WARNING: [Synth 8-3332] Sequential element (data2_reg[2]) is unused and will be removed from module topDesign.
+WARNING: [Synth 8-3332] Sequential element (data2_reg[1]) is unused and will be removed from module topDesign.
+WARNING: [Synth 8-3332] Sequential element (data2_reg[0]) is unused and will be removed from module topDesign.
+WARNING: [Synth 8-3332] Sequential element (data3_reg[3]) is unused and will be removed from module topDesign.
+WARNING: [Synth 8-3332] Sequential element (data3_reg[2]) is unused and will be removed from module topDesign.
+WARNING: [Synth 8-3332] Sequential element (data3_reg[1]) is unused and will be removed from module topDesign.
+WARNING: [Synth 8-3332] Sequential element (data3_reg[0]) is unused and will be removed from module topDesign.
+WARNING: [Synth 8-3332] Sequential element (data4_reg[3]) is unused and will be removed from module topDesign.
+WARNING: [Synth 8-3332] Sequential element (data4_reg[2]) is unused and will be removed from module topDesign.
+WARNING: [Synth 8-3332] Sequential element (data4_reg[1]) is unused and will be removed from module topDesign.
+WARNING: [Synth 8-3332] Sequential element (data4_reg[0]) is unused and will be removed from module topDesign.
+WARNING: [Synth 8-3332] Sequential element (data5_reg[3]) is unused and will be removed from module topDesign.
+WARNING: [Synth 8-3332] Sequential element (data5_reg[2]) is unused and will be removed from module topDesign.
+WARNING: [Synth 8-3332] Sequential element (data5_reg[1]) is unused and will be removed from module topDesign.
+WARNING: [Synth 8-3332] Sequential element (data5_reg[0]) is unused and will be removed from module topDesign.
+WARNING: [Synth 8-3332] Sequential element (data6_reg[3]) is unused and will be removed from module topDesign.
+WARNING: [Synth 8-3332] Sequential element (data6_reg[2]) is unused and will be removed from module topDesign.
+WARNING: [Synth 8-3332] Sequential element (data6_reg[1]) is unused and will be removed from module topDesign.
+WARNING: [Synth 8-3332] Sequential element (data6_reg[0]) is unused and will be removed from module topDesign.
+WARNING: [Synth 8-3332] Sequential element (data7_reg[3]) is unused and will be removed from module topDesign.
+WARNING: [Synth 8-3332] Sequential element (data7_reg[2]) is unused and will be removed from module topDesign.
+WARNING: [Synth 8-3332] Sequential element (data7_reg[1]) is unused and will be removed from module topDesign.
+WARNING: [Synth 8-3332] Sequential element (data7_reg[0]) is unused and will be removed from module topDesign.
+WARNING: [Synth 8-3332] Sequential element (data8_reg[3]) is unused and will be removed from module topDesign.
+WARNING: [Synth 8-3332] Sequential element (data8_reg[2]) is unused and will be removed from module topDesign.
+WARNING: [Synth 8-3332] Sequential element (data8_reg[1]) is unused and will be removed from module topDesign.
+WARNING: [Synth 8-3332] Sequential element (data8_reg[0]) is unused and will be removed from module topDesign.
+INFO: [Synth 8-3886] merging instance 'U_hexseg8_1/en_reg[0]' (FD) to 'U_hexseg8_1/en_reg[4]'
+INFO: [Synth 8-3886] merging instance 'U_hexseg8_1/en_reg[1]' (FD) to 'U_hexseg8_1/en_reg[5]'
+INFO: [Synth 8-3886] merging instance 'U_hexseg8_1/en_reg[2]' (FD) to 'U_hexseg8_1/en_reg[6]'
+INFO: [Synth 8-3886] merging instance 'U_hexseg8_1/en_reg[3]' (FD) to 'U_hexseg8_1/en_reg[7]'
+INFO: [Synth 8-3886] merging instance 'i_0/U_shinningO_1/U_divider4Hz_1/cnt_reg[27]' (FD) to 'i_0/U_shinningO_1/U_divider4Hz_1/cnt_reg[26]'
+INFO: [Synth 8-3886] merging instance 'i_0/U_shinningO_1/U_divider4Hz_1/cnt_reg[26]' (FD) to 'i_0/U_shinningO_1/U_divider4Hz_1/cnt_reg[28]'
+INFO: [Synth 8-3886] merging instance 'i_0/U_shinningO_1/U_divider4Hz_1/cnt_reg[28]' (FD) to 'i_0/U_hexseg8_1/u_divider_1/cnt_reg[20]'
+INFO: [Synth 8-3886] merging instance 'i_0/u_divider1Hz_1/cnt_reg[44]' (FD) to 'i_0/U_hexseg8_1/u_divider_1/cnt_reg[20]'
+INFO: [Synth 8-3886] merging instance 'i_0/u_divider1Hz_1/cnt_reg[32]' (FD) to 'i_0/U_hexseg8_1/u_divider_1/cnt_reg[20]'
+INFO: [Synth 8-3886] merging instance 'i_0/u_divider1Hz_1/cnt_reg[47]' (FD) to 'i_0/U_hexseg8_1/u_divider_1/cnt_reg[20]'
+INFO: [Synth 8-3886] merging instance 'i_0/u_divider1Hz_1/cnt_reg[33]' (FD) to 'i_0/U_hexseg8_1/u_divider_1/cnt_reg[20]'
+INFO: [Synth 8-3886] merging instance 'i_0/u_divider1Hz_1/cnt_reg[40]' (FD) to 'i_0/U_hexseg8_1/u_divider_1/cnt_reg[20]'
+INFO: [Synth 8-3886] merging instance 'i_0/u_divider1Hz_1/cnt_reg[39]' (FD) to 'i_0/U_hexseg8_1/u_divider_1/cnt_reg[20]'
+INFO: [Synth 8-3886] merging instance 'i_0/u_divider1Hz_1/cnt_reg[42]' (FD) to 'i_0/U_hexseg8_1/u_divider_1/cnt_reg[20]'
+INFO: [Synth 8-3886] merging instance 'i_0/u_divider1Hz_1/cnt_reg[28]' (FD) to 'i_0/U_hexseg8_1/u_divider_1/cnt_reg[20]'
+INFO: [Synth 8-3886] merging instance 'i_0/u_divider1Hz_1/cnt_reg[36]' (FD) to 'i_0/U_hexseg8_1/u_divider_1/cnt_reg[20]'
+INFO: [Synth 8-3886] merging instance 'i_0/u_divider1Hz_1/cnt_reg[29]' (FD) to 'i_0/U_hexseg8_1/u_divider_1/cnt_reg[20]'
+INFO: [Synth 8-3886] merging instance 'i_0/u_divider1Hz_1/cnt_reg[45]' (FD) to 'i_0/U_hexseg8_1/u_divider_1/cnt_reg[20]'
+INFO: [Synth 8-3886] merging instance 'i_0/u_divider1Hz_1/cnt_reg[37]' (FD) to 'i_0/U_hexseg8_1/u_divider_1/cnt_reg[20]'
+INFO: [Synth 8-3886] merging instance 'i_0/u_divider1Hz_1/cnt_reg[48]' (FD) to 'i_0/U_hexseg8_1/u_divider_1/cnt_reg[20]'
+INFO: [Synth 8-3886] merging instance 'i_0/u_divider1Hz_1/cnt_reg[34]' (FD) to 'i_0/U_hexseg8_1/u_divider_1/cnt_reg[20]'
+INFO: [Synth 8-3886] merging instance 'i_0/u_divider1Hz_1/cnt_reg[35]' (FD) to 'i_0/U_hexseg8_1/u_divider_1/cnt_reg[20]'
+INFO: [Synth 8-3886] merging instance 'i_0/u_divider1Hz_1/cnt_reg[31]' (FD) to 'i_0/U_hexseg8_1/u_divider_1/cnt_reg[20]'
+INFO: [Synth 8-3886] merging instance 'i_0/u_divider1Hz_1/cnt_reg[30]' (FD) to 'i_0/U_hexseg8_1/u_divider_1/cnt_reg[20]'
+INFO: [Synth 8-3886] merging instance 'i_0/u_divider1Hz_1/cnt_reg[50]' (FD) to 'i_0/U_hexseg8_1/u_divider_1/cnt_reg[20]'
+INFO: [Synth 8-3886] merging instance 'i_0/u_divider1Hz_1/cnt_reg[49]' (FD) to 'i_0/U_hexseg8_1/u_divider_1/cnt_reg[20]'
+INFO: [Synth 8-3886] merging instance 'i_0/u_divider1Hz_1/cnt_reg[41]' (FD) to 'i_0/U_hexseg8_1/u_divider_1/cnt_reg[20]'
+INFO: [Synth 8-3886] merging instance 'i_0/u_divider1Hz_1/cnt_reg[38]' (FD) to 'i_0/U_hexseg8_1/u_divider_1/cnt_reg[20]'
+INFO: [Synth 8-3886] merging instance 'i_0/u_divider1Hz_1/cnt_reg[46]' (FD) to 'i_0/U_hexseg8_1/u_divider_1/cnt_reg[20]'
+INFO: [Synth 8-3886] merging instance 'i_0/u_divider1Hz_1/cnt_reg[43]' (FD) to 'i_0/U_hexseg8_1/u_divider_1/cnt_reg[20]'
+INFO: [Synth 8-3886] merging instance 'i_0/U_hexseg8_1/u_divider_1/cnt_reg[19]' (FD) to 'i_0/U_hexseg8_1/u_divider_1/cnt_reg[20]'
+INFO: [Synth 8-3886] merging instance 'i_0/U_hexseg8_1/u_divider_1/cnt_reg[18]' (FD) to 'i_0/U_hexseg8_1/u_divider_1/cnt_reg[20]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/\U_hexseg8_1/u_divider_1/cnt_reg[20] )
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 750.328 ; gain = 487.652
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 750.328 ; gain = 487.652
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 750.328 ; gain = 487.652
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:22 ; elapsed = 00:00:22 . Memory (MB): peak = 765.863 ; gain = 503.188
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 765.863 ; gain = 503.188
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 765.863 ; gain = 503.188
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 765.863 ; gain = 503.188
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 765.863 ; gain = 503.188
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 765.863 ; gain = 503.188
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 765.863 ; gain = 503.188
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     3|
+|2     |CARRY4 |    19|
+|3     |LUT1   |     2|
+|4     |LUT2   |    32|
+|5     |LUT3   |   104|
+|6     |LUT4   |    86|
+|7     |LUT5   |    61|
+|8     |LUT6   |   122|
+|9     |FDRE   |   311|
+|10    |IBUF   |    14|
+|11    |OBUF   |    22|
++------+-------+------+
+
+Report Instance Areas: 
++------+-------------------+-----------+------+
+|      |Instance           |Module     |Cells |
++------+-------------------+-----------+------+
+|1     |top                |           |   776|
+|2     |  U_hexseg8_1      |hexseg8    |   224|
+|3     |    u_divider_1    |divider    |    47|
+|4     |  U_ranNum_1       |randNum    |    89|
+|5     |  U_shinningO_1    |shinningO  |    79|
+|6     |    U_divider4Hz_1 |divider4Hz |    68|
+|7     |  u_divider1Hz_1   |divider1Hz |    72|
++------+-------------------+-----------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 765.863 ; gain = 503.188
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 41 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:15 ; elapsed = 00:00:19 . Memory (MB): peak = 765.863 ; gain = 172.238
+Synthesis Optimization Complete : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 765.863 ; gain = 503.188
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 19 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 773.102 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+88 Infos, 72 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:23 ; elapsed = 00:00:25 . Memory (MB): peak = 773.102 ; gain = 523.691
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 773.102 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'D:/190110716/project_6wed/project_6wed.runs/synth_1/topDesign.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file topDesign_utilization_synth.rpt -pb topDesign_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Dec  2 12:06:02 2020...

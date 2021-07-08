@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Webtalk v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Thu Nov  5 22:57:44 2020
+# Process ID: 20164
+# Current directory: C:/Users/carl/fpga/feg8file/feg8file.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source C:/Users/carl/fpga/feg8file/feg8file.sim/sim_1/behav/xsim/xsim.dir/reg8file_sim_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Users/carl/fpga/feg8file/feg8file.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: C:/Users/carl/fpga/feg8file/feg8file.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/carl/fpga/feg8file/feg8file.sim/sim_1/behav/xsim/xsim.dir/reg8file_sim_behav/webtalk/xsim_webtalk.tcl -notrace
+webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 109.961 ; gain = 17.445
+INFO: [Common 17-206] Exiting Webtalk at Thu Nov  5 22:57:52 2020...

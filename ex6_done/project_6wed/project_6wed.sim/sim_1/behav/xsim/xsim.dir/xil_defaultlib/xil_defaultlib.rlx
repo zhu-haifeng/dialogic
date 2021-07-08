@@ -1,0 +1,10 @@
+0.6
+2019.2
+Nov  6 2019
+21:57:16
+C:/Users/carl/fpga/ex6_done/project_6wed/project_6wed.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
+C:/Users/carl/fpga/ex6_done/project_6wed/project_6wed.srcs/sim_1/new/hexseg8_sim.v,1607069294,verilog,,,,hexseg8_sim,,,,,,,,
+C:/Users/carl/fpga/ex6_done/project_6wed/project_6wed.srcs/sim_1/new/singleDisplay_sim.v,1607068310,verilog,,,,singleDisplay_sim,,,,,,,,
+C:/Users/carl/fpga/ex6_done/project_6wed/project_6wed.srcs/sources_1/new/divider.v,1607069546,verilog,,C:/Users/carl/fpga/ex6_done/project_6wed/project_6wed.srcs/sources_1/new/hexseg8.v,,divider,,,,,,,,
+C:/Users/carl/fpga/ex6_done/project_6wed/project_6wed.srcs/sources_1/new/hexseg8.v,1606654919,verilog,,C:/Users/carl/fpga/ex6_done/project_6wed/project_6wed.srcs/sources_1/new/singledisplay.v,,hexseg8,,,,,,,,
+C:/Users/carl/fpga/ex6_done/project_6wed/project_6wed.srcs/sources_1/new/singledisplay.v,1606742795,verilog,,C:/Users/carl/fpga/ex6_done/project_6wed/project_6wed.srcs/sim_1/new/hexseg8_sim.v,,singleDisplay,,,,,,,,

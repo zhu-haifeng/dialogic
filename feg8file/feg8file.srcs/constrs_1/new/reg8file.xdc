@@ -1,0 +1,30 @@
+set_property CLOCK_DEDICATED_ROUTE FALSE [get_nets clk]
+set_property -dict { IOSTANDARD LVCMOS33 PACKAGE_PIN T5 } [get_ports d[7]]
+set_property -dict { IOSTANDARD LVCMOS33 PACKAGE_PIN T3 } [get_ports d[6]]
+set_property -dict { IOSTANDARD LVCMOS33 PACKAGE_PIN R3 } [get_ports d[5]]
+set_property -dict { IOSTANDARD LVCMOS33 PACKAGE_PIN V4 } [get_ports d[4]]
+set_property -dict { IOSTANDARD LVCMOS33 PACKAGE_PIN V5 } [get_ports d[3]]
+set_property -dict { IOSTANDARD LVCMOS33 PACKAGE_PIN V2 } [get_ports d[2]]
+set_property -dict { IOSTANDARD LVCMOS33 PACKAGE_PIN U2 } [get_ports d[1]]
+set_property -dict { IOSTANDARD LVCMOS33 PACKAGE_PIN U3 } [get_ports d[0]]
+
+set_property -dict { IOSTANDARD LVCMOS33 PACKAGE_PIN R1 } [get_ports clk]
+set_property -dict { IOSTANDARD LVCMOS33 PACKAGE_PIN N4 } [get_ports wen]
+
+set_property -dict { IOSTANDARD LVCMOS33 PACKAGE_PIN P3 } [get_ports wsel[2]]
+set_property -dict { IOSTANDARD LVCMOS33 PACKAGE_PIN P2 } [get_ports wsel[1]]
+set_property -dict { IOSTANDARD LVCMOS33 PACKAGE_PIN R2 } [get_ports wsel[0]]
+
+set_property -dict { IOSTANDARD LVCMOS33 PACKAGE_PIN K2 } [get_ports q[0]]
+set_property -dict { IOSTANDARD LVCMOS33 PACKAGE_PIN J2 } [get_ports q[1]]
+set_property -dict { IOSTANDARD LVCMOS33 PACKAGE_PIN J3 } [get_ports q[2]]
+set_property -dict { IOSTANDARD LVCMOS33 PACKAGE_PIN H4 } [get_ports q[3]]
+set_property -dict { IOSTANDARD LVCMOS33 PACKAGE_PIN J4 } [get_ports q[4]]
+set_property -dict { IOSTANDARD LVCMOS33 PACKAGE_PIN G3 } [get_ports q[5]]
+set_property -dict { IOSTANDARD LVCMOS33 PACKAGE_PIN G4 } [get_ports q[6]]
+set_property -dict { IOSTANDARD LVCMOS33 PACKAGE_PIN F6 } [get_ports q[7]]
+
+set_property -dict { IOSTANDARD LVCMOS33 PACKAGE_PIN M4 } [get_ports clrn]
+
+set_property -dict { IOSTANDARD LVCMOS33 PACKAGE_PIN P5 } [get_ports rsel[1]]
+set_property -dict { IOSTANDARD LVCMOS33 PACKAGE_PIN P4 } [get_ports rsel[0]]

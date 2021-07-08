@@ -1,0 +1,55 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Tue Nov 10 10:13:14 2020
+# Process ID: 18356
+# Current directory: C:/Users/carl/fpga/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18516 C:\Users\carl\fpga\project_1\project_1.xpr
+# Log file: C:/Users/carl/fpga/project_1/vivado.log
+# Journal file: C:/Users/carl/fpga/project_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/carl/fpga/project_1/project_1.xpr
+update_compile_order -fileset sources_1
+save_project_as Ex_3 C:/Users/carl/fpga/Ex_3 -force
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top divider_sim [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+source divider_sim.tcl
+run all
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top flowLED_top_sim [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_simulation
+close_sim
+launch_simulation
+source flowLED_top_sim.tcl
+close_sim
+launch_simulation
+source flowLED_top_sim.tcl
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+open_run synth_1 -name synth_1
+set_property IOSTANDARD LVCMOS33 [get_ports [list {led_o[7]}]]
+close_sim
+launch_simulation
+source flowLED_top_sim.tcl
+close_sim

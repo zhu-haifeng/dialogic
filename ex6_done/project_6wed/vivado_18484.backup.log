@@ -1,0 +1,63 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Thu Dec  3 18:29:28 2020
+# Process ID: 18484
+# Current directory: C:/Users/carl/fpga/ex6_done/project_6wed
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18328 C:\Users\carl\fpga\ex6_done\project_6wed\project_6wed.xpr
+# Log file: C:/Users/carl/fpga/ex6_done/project_6wed/vivado.log
+# Journal file: C:/Users/carl/fpga/ex6_done/project_6wed\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/carl/fpga/ex6_done/project_6wed/project_6wed.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.2/data/ip'.
+open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:05 . Memory (MB): peak = 723.008 ; gain = 95.984
+update_compile_order -fileset sources_1
+open_run impl_1
+INFO: [Device 21-403] Loading part xc7a35tcsg324-1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.012 . Memory (MB): peak = 1000.969 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 19 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.3
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Constraints 18-4397] Generator change detected checking ShapeConfig Enum. shapeDB will be regenerated.
+Parsing XDC File [C:/Users/carl/fpga/ex6_done/project_6wed/project_6wed.runs/impl_1/topDesign_routed/topDesign.xdc]
+Finished Parsing XDC File [C:/Users/carl/fpga/ex6_done/project_6wed/project_6wed.runs/impl_1/topDesign_routed/topDesign.xdc]
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.103 . Memory (MB): peak = 1097.609 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.109 . Memory (MB): peak = 1097.609 ; gain = 0.000
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1097.609 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:18 ; elapsed = 00:00:11 . Memory (MB): peak = 1237.207 ; gain = 486.055
+WARNING: [Timing 38-313] There are no user specified timing constraints. Timing constraints are needed for proper timing analysis.
+close_design
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a35tcsg324-1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 1811.898 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 19 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.3
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [C:/Users/carl/fpga/ex6_done/project_6wed/project_6wed.srcs/constrs_1/new/topDesign.xdc]
+Finished Parsing XDC File [C:/Users/carl/fpga/ex6_done/project_6wed/project_6wed.srcs/constrs_1/new/topDesign.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1811.898 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+write_schematic -format pdf -orientation portrait C:/Users/carl/fpga/project_4/project_4/schematic.pdf
+C:/Users/carl/fpga/project_4/project_4/schematic.pdf
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Dec  3 20:07:32 2020...

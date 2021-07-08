@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../project_6wed.srcs/sources_1/new/randNum.v" \
+"../../../../project_6wed.srcs/sim_1/new/randNum_sim.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

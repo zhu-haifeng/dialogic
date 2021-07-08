@@ -1,0 +1,139 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Thu Nov 12 23:10:19 2020
+# Process ID: 8176
+# Current directory: C:/Users/carl/fpga/hexseg8
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8124 C:\Users\carl\fpga\hexseg8\hexseg8.xpr
+# Log file: C:/Users/carl/fpga/hexseg8/vivado.log
+# Journal file: C:/Users/carl/fpga/hexseg8\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/carl/fpga/hexseg8/hexseg8.xpr
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/carl/fpga/hexseg8/hexseg8.srcs/sim_1/new/hexseg8_sim.v w ]
+add_files -fileset sim_1 C:/Users/carl/fpga/hexseg8/hexseg8.srcs/sim_1/new/hexseg8_sim.v
+update_compile_order -fileset sim_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top hexseg8_sim [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+source hexseg8_sim.tcl
+relaunch_sim
+relaunch_sim
+relaunch_sim
+close_sim
+launch_simulation
+source hexseg8_sim.tcl
+relaunch_sim
+relaunch_sim
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top divider_sim [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+launch_simulation
+update_compile_order -fileset sim_1
+launch_simulation
+close_sim
+launch_simulation
+source divider_sim.tcl
+run all
+relaunch_sim
+run all
+relaunch_sim
+run all
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top hexseg8_sim [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+close_sim
+launch_simulation
+source hexseg8_sim.tcl
+relaunch_sim
+run all
+relaunch_sim
+run all
+relaunch_sim
+run all
+relaunch_sim
+run all
+close_sim
+file mkdir C:/Users/carl/fpga/hexseg8/hexseg8.srcs/constrs_1
+file mkdir C:/Users/carl/fpga/hexseg8/hexseg8.srcs/constrs_1/new
+close [ open C:/Users/carl/fpga/hexseg8/hexseg8.srcs/constrs_1/new/hexseg8.xdc w ]
+add_files -fileset constrs_1 C:/Users/carl/fpga/hexseg8/hexseg8.srcs/constrs_1/new/hexseg8.xdc
+launch_simulation
+source hexseg8_sim.tcl
+relaunch_sim
+relaunch_sim
+relaunch_sim
+run all
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+open_run impl_1
+place_ports rst_n_i R11
+set_property target_constrs_file C:/Users/carl/fpga/hexseg8/hexseg8.srcs/constrs_1/new/hexseg8.xdc [current_fileset -constrset]
+save_constraints -force
+reset_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+close_design
+synth_design -rtl -name rtl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/carl/fpga/hexseg8/hexseg8.runs/impl_1/hexseg8.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/carl/fpga/hexseg8/hexseg8.runs/impl_1/hexseg8.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/carl/fpga/hexseg8/hexseg8.runs/impl_1/hexseg8.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+close_sim
+launch_simulation
+source hexseg8_sim.tcl
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+run all
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/carl/fpga/hexseg8/hexseg8.runs/impl_1/hexseg8.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_run impl_1
+close_design
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/carl/fpga/hexseg8/hexseg8.runs/impl_1/hexseg8.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+close_sim

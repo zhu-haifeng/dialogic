@@ -1,0 +1,9 @@
+0.6
+2019.2
+Nov  6 2019
+21:57:16
+C:/Users/carl/fpga/project_4/project_4/project_4.sim/sim_1/behav/xsim/glbl.v,1573089660,verilog,,,,glbl,,,,,,,,
+C:/Users/carl/fpga/project_4/project_4/project_4.srcs/sim_1/new/mealy_sim.v,1606055871,verilog,,,,mealy_sim,,,,,,,,
+C:/Users/carl/fpga/project_4/project_4/project_4.srcs/sim_1/new/moore_sim.v,1606056693,verilog,,,,moore_sim,,,,,,,,
+C:/Users/carl/fpga/project_4/project_4/project_4.srcs/sources_1/new/moore.v,1606053533,verilog,,C:/Users/carl/fpga/project_4/project_4/project_4.srcs/sim_1/new/moore_sim.v,,moore,,,,,,,,
+C:/Users/carl/fpga/project_4/project_4/project_4.srcs/sources_1/new/sep_det_mealy.v,1605978355,verilog,,C:/Users/carl/fpga/project_4/project_4/project_4.srcs/sim_1/new/mealy_sim.v,,sep_det_mealy,,,,,,,,

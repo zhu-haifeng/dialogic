@@ -1,0 +1,3 @@
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+$stop called at time : 315 ns : File "C:/Users/carl/fpga/feg8file/feg8file.srcs/sim_1/new/reg8file_sim.v" Line 63
